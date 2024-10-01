@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="portfolio">
+        <!-- Sección de proyecto 1 -->
+        <section class="project" data-bgcolor="#FFB6C1">
+            <div class="container">
+                <!-- Texto en la parte superior -->
+                <div class="content">
+                    <h1>Título del Proyecto 1</h1>
+                    <h3>Subtítulo del Proyecto 1</h3>
+                    <p class="animated-text">Descripción del proyecto 1.</p>
+                </div>
+                <!-- Feed de imágenes a la izquierda -->
+                <div class="feed">
+                    <div class="image-row">
+                        <img src="imagen1.jpg" alt="Imagen 1" class="feed-image">
+                    </div>
+                    <div class="image-row">
+                        <img src="https://embed-ssl.wistia.com/deliveries/d4ccdace8f2bb273105288b8bbb2a0a9.webp?image_crop_resized=1250x729" alt="Imagen 2" class="feed-image">
+                    </div>
+                    <div class="image-row">
+                        <img src="imagen3.jpg" alt="Imagen 3" class="feed-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de proyecto 2 -->
+        <section class="project" data-bgcolor="#ADD8E6">
+            <div class="container">
+                <!-- Texto en la parte superior -->
+                <div class="content">
+                    <h1>Título del Proyecto 2</h1>
+                    <h3>Subtítulo del Proyecto 2</h3>
+                    <p class="animated-text">Descripción del proyecto 2.</p>
+                </div>
+                <!-- Feed de imágenes a la izquierda -->
+                <div class="feed">
+                    <div class="image-row">
+                        <img src="imagen4.jpg" alt="Imagen 4" class="feed-image">
+                    </div>
+                    <div class="image-row">
+                        <img src="imagen5.jpg" alt="Imagen 5" class="feed-image">
+                    </div>
+                    <div class="image-row">
+                        <img src="imagen6.jpg" alt="Imagen 6" class="feed-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de proyecto 3 -->
+        <section class="project" data-bgcolor="#90EE90">
+            <div class="container">
+                <!-- Texto en la parte superior -->
+                <div class="content">
+                    <h1>Título del Proyecto 3</h1>
+                    <h3>Subtítulo del Proyecto 3</h3>
+                    <p class="animated-text">Descripción del proyecto 3.</p>
+                </div>
+                <!-- Feed de imágenes a la izquierda -->
+                <div class="feed">
+                    <div class="image-row">
+                        <img src="imagen7.jpg" alt="Imagen 7" class="feed-image">
+                    </div>
+                    <div class="image-row">
+                        <img src="imagen8.jpg" alt="Imagen 8" class="feed-image">
+                    </div>
+                    <div class="image-row">
+                        <img src="imagen9.jpg" alt="Imagen 9" class="feed-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Estructura del Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
